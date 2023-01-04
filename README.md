@@ -16,6 +16,12 @@ Then, create a 'JsonSchemaBuilder' object using the add_object function and the 
 }
 builder = from_object(data)
 `
-To get the JSOn Schema object, call the 'to_schema' method of the JsonSchemaBuilder' object
+
+To get the JSON Schema object, call the 'to_schema' method of the JsonSchemaBuilder' object
 
 `schema = builder.to_schema()`
+
+## Testing
+
+To run tests, run the following code:
+`python test.py`
